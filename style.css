@@ -1,0 +1,306 @@
+.header-body {
+    width: 1240px;
+    margin: auto;
+}
+
+.header-body-menu nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header-body-menu nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 6px;
+    display: block;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.header {
+    background: green;
+}
+.header-body-menu nav ul li a:hover {
+    background: black;
+}
+.header-body-menu ul li {
+    border-left: 0.5px solid #FFFFFF;
+    border-right: 0.5px solid #FFFFFF;
+}
+.header-body-menu ul li:last-child {
+    border-right: 0;
+}
+
+.header-body-menu ul li:first-child {
+    border-left: 0;
+}
+.main-logo-box {
+    width: 40%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.main-logo-box img {
+    max-width: 100%;
+}
+.shere-box {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+
+
+.shere-box-menu nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.shere-box-menu nav ul li a {
+    text-decoration: none;
+    padding: 8px;
+    font-size: 15px;
+    display: block;
+    color: white;
+}
+
+.shere {
+    background: green;
+}
+
+.shere-box-menu ul li {
+            border-left: 1px solid #FFFFFF;
+            border-right: 1px solid #FFFFFF;}
+
+.shere-box-menu ul li:first-child {
+    border-left: 0;
+}
+
+.shere-box-menu ul li:last-child {
+    border-right: 0;
+}
+
+
+.footer-box {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-box-logo {
+    /* width: 27%; */
+    padding: 34px;
+}
+
+.footer-box-tex {
+    /* width: 76%; */
+    padding: 17px;
+}
+
+.footer-box-logo img {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background: antiquewhite;
+}
+
+.footer-box-tex h1 {
+    font-size: 20px;
+    padding-top: 36px;
+}
+
+.footer-box-tex h2 {
+    font-size: 20px;
+}
+
+.footer-box-tex h3 {
+    font-size: 15px;
+}
+
+.footer-box-tex h4 {
+    font-size: 15px;
+    line-height: 10%;
+}
+
+.footer-box-tex h5 {
+    line-height: 10%;
+}
+.shere-box-link-logo {
+    display: flex;
+       width: 16%;
+    justify-content: end;
+}
+
+.shere-box-link-logo ul  {
+    /* font-size: 12px; */
+    padding: 12px;
+    display: block;
+    color: red;
+    margin-left: 0;
+    font-size: 16px;
+    
+}
+.shere-box-link-logo p {
+    font-size: 22px;
+    color: blue;
+}
+.esign-box {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.esign-box-maile {
+    width: 40%;
+}
+
+.esign-box-logo {
+    width: 40%;
+}
+
+.esign-box-logo nav ul {display: flex;list-style: none;}
+
+
+.esign-box-logo nav ul li a {
+    color: white;
+    margin-left: 0;
+    padding: 8px;
+}
+
+.esign {
+    background: black;
+}
+
+.esign-box-maile p {
+    color: white;
+}
+.esign-box-logo ul li {
+    width: 1px;
+    margin: 15px;
+    border-radius: 20%;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sea-khabara-item {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sea-khabara-item-text-1 {
+    width: 33%;
+}
+
+.sea-khabara-item-photo {
+    width: 33%;
+}
+
+.sea-khabara-item-text-2 {
+    width: 33%;
+}
+.sea-khabara-item-photo img {
+    max-width: 100%;
+    display: flow;
+    padding: 14px 0px;
+}
+
+.sea-khabara-item-text-1 h1 {
+    font-size: 22px;
+    background: green;
+}
+
+.sea-khabara-item-text-1 p {
+    font-size: 12px;
+}
+
+
+
+.sea-khabara-item-text-2 h1 {
+    font-size: 22px;
+    background: green;
+}
+
+.sea-khabara-item-text-2 h2 {
+    font-size: 13px;
+}
+.National-item {
+    margin: auto;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.National-item-photo {
+    width: 32%;
+}
+.National-item-photo p {
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+.bhasundara {
+    width: 900px;
+    margin: auto;
+}
+.Politics {
+    width: 900px;
+    margin: auto;
+    background: green;
+    color: white;
+}
+.politics-item {
+    width: 900px;
+    margin: auto;
+    display: flex;
+}
+
+.politics-item-text-1 {
+    width: 55%;
+}
+
+.politics-item-text-2 {
+    width: 23%;
+}
+
+img {
+    max-width: 100%;
+}
+.politics-item-text-2-2 {
+    display: flex;
+    /* width: 326px; */
+    /* margin: auto; */
+    justify-content: space-around;
+    padding: 4px 0;
+}
+
+.politics-item-text-2-2 p {
+    font-size: 9px;
+}
+.politics-item-text-1 h1 {
+    font-size: 18px;
+}
+.bacground {
+    width: 900px;
+    height: 210px;
+    background: grey;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.International {
+    width: 900px;
+    margin: auto;
+    background: green;
+    color: white;
+}
