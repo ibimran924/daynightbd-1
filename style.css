@@ -304,3 +304,71 @@ img {
     background: green;
     color: white;
 }
+.International-item {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.International-item-text-1 {
+    width: 50%;
+}
+img {
+    max-width: 100%;
+}
+
+
+.International-item-text-1-1 {
+    display: flex;
+    padding: 10px 0;
+}
+
+.International-item-text-1-1 p {
+    font-size: 14px;
+}
+
+.International-item-text-1 {
+    width: 50%;
+}
+.Entertainment-item {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+.Entertainment-item-photo {
+    width: 32%; 
+}
+
+img {
+    max-width: 100%;
+}
+.Entertainment-item-photo p {
+    background: green;
+    color: white;
+    font-size: 23px;
+}
+.Entertainment-item-photo p {
+    background: green;
+    color: white;
+    font-size: 23px;
+}
+
+.Entertainment-item-photo h1 {
+    font-size: 15px;
+}
+
+.Entertainment-item-photo h2 {
+    font-size: 13px;
+}
+
+.Entertainment-item-photo h3 {
+    font-size: 13px;
+}
+
+.Entertainment-item-photo h4 {
+    font-size: 13px;
+}
